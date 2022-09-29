@@ -412,9 +412,10 @@
   - String station = "광화문";
 - String은 길이를 가짐
   - length() 메서드
-  - ex) int len = java.length();
+  - ex) int len = java.length()
 - String은 char로 이루어짐
   - charAt() 메서드 -> String으로 저장된 문자열 중에서 한 글자만 선택해 char 타입으로 변환
+  - ex) char firstChar = star.charAt(star.length() -1)
 - String은 다른 String 값으로 재할당 할 수 있음
 
 - String 클래스의 주요 메서드
