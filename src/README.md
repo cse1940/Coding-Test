@@ -98,3 +98,88 @@
 
 
 
+### 5. 데이터의 입력과 출력
+
+- int 데이터 입력 받기
+
+  - java.util.Scanner 클래스
+
+  - import java.util.Scanner 문 필요
+
+    
+
+  - Scanner s = new Scanner(System.in)
+
+  - System.in 은 표준 입력을 의미
+
+    
+
+  - s.nextInt() 메서드를 호출하면 사용자가 입력한 int 값을 받을 수 있음
+
+- double 데이터 입력 받기
+
+  -  s.nextDouble() 메서드를 호출하면 사용자가 입력한 double 값을 받을 수 있음
+
+- String 데이터 입력 받기
+
+  - s.nextLine() 메서드를 호출하면 사용자가 입력한 String 값을 받을 수 있음
+
+
+
+### 6. 배열
+
+- 배열은 동일한 데이터 타입의 여러 값을 보관
+
+  - ex) int[] grades = {1, 2, 3, 4}
+
+  - 배열 변수에는 대괄호[] 가 붙음
+  - 초기값은 중괄호{} 로 정의함
+  - 배열에는 길이가 있음
+    - grades 배열의 길이는 4
+
+- grade 변수는 int[] 타입
+
+  - int[]는 int 형 배열
+
+- 배열의 첫 번째 값
+
+  - grades[0]
+
+- 배열의 N 번째 값
+
+  - grades[N-1]
+
+- int 값을 나누면 int 값이 되기 때문에 (double)로 강제 형 변환함
+
+
+
+- double 형 배열
+  - double 형 배열에는 double 값만 들어갈 수 있음
+- 배열 선언
+  - double[] sensorData
+- 배열 정의
+  - sensorData = new double[] {1,0, 2,2, 3.1}
+- 배열의 길이
+  - sensorData.length
+- 마지막 배열의 인덱스
+  - sensorData.length -1
+
+
+
+- String 형 배열
+  - String 형 배열에는 String 값만 들어갈 수 있음
+- 배열 선언
+  - String[] cities = new String[10]
+  - 이 배열에는 10개의 데이터만 넣을 수 있음
+  - index 범위: 0~9
+- 배열의 값 할당
+  - int idx = 0
+  - Cities[idx++]
+    - 배열의 인덱스를 자동으로 증가
+- Scanner 객체 사용 후 닫기
+  - s.close() 반드시 호출 해줘야 함
+
+
+
+### 7.
+
